@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Test package for npm install from github.",
   "main": "index.js",
-  "bin": {"npm-test": "./bin/npm-test"},
+  "bin": {"npm-test": "bin/npm-test"},
   "scripts": {
     "prepublish": "echo prepublish",
     "prepare": "echo prepare",
@@ -11,7 +11,7 @@
     "prepack": "echo prepack",
     "postpack": "echo postpack",
     "publish": "echo publish",
-    "preinstall": "echo preinstall; mkdir bin; touch npm-test",
+    "preinstall": "echo preinstall; mkdir bin; touch bin/npm-test",
     "install": "echo install",
     "postinstall": "echo postinstall",
     "test": "echo test"
