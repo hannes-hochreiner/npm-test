@@ -1,9 +1,11 @@
 {
   "name": "npm-test",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Test package for npm install from github.",
   "main": "index.js",
-  "bin": {"npm-test": "bin/npm-test"},
+  "bin": {
+    "npm-test": "bin/npm-test"
+  },
   "scripts": {
     "prepublish": "echo prepublish",
     "prepare": "echo prepare",
