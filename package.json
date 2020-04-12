@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Test package for npm install from github.",
   "main": "index.js",
+  "bin": {"npm-test": "./bin/npm-test"},
   "scripts": {
     "prepublish": "echo prepublish",
     "prepare": "echo prepare",
