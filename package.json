@@ -1,0 +1,28 @@
+{
+  "name": "npm-test",
+  "version": "1.0.0",
+  "description": "Test package for npm install from github.",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "echo prepublish",
+    "prepare": "echo prepare",
+    "prepublishOnly": "echo prepublishOnly",
+    "prepack": "echo prepack",
+    "postpack": "echo postpack",
+    "publish": "echo publish",
+    "preinstall": "echo preinstall",
+    "install": "echo install",
+    "postinstall": "echo postinstall",
+    "test": "echo test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hannes-hochreiner/npm-test.git"
+  },
+  "author": "Hannes Hochreiner <hannes@hochreiner.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hannes-hochreiner/npm-test/issues"
+  },
+  "homepage": "https://github.com/hannes-hochreiner/npm-test#readme"
+}
